@@ -19,3 +19,7 @@ Run `python scripts/build.py`, then `python -m http.server 8000` from this direc
 Edit the `RANGES` catalog in `scripts/build.py` and homepage/attendee content in `scripts/attendee_content.py`, then regenerate the HTML. Update `assets/style.css` for design changes. Commit generated HTML alongside its source so the site can also be served without a build. All internal paths support GitHub Pages project subdirectories.
 
 The site uses no JavaScript or package dependencies. Google Fonts are optional; local font fallbacks are provided. The publishing workflow uploads only the homepage, range pages, and public assets.
+
+## EMP 2026 branding
+
+The supplied EMP Range 2026 logo sets the site palette: deep teal `#00151b`, green `#42bc6e`, and bright green `#50ec66`. Optimized assets in `assets/` include a 960px WebP homepage emblem, a 160px WebP header mark, and a PNG favicon. The original artwork is preserved in the supplied source file; web copies are resized and compressed without changing the design. Shared branding is applied to every generated page.
